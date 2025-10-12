@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "blog_posts_landing_pages",
+  "info": {
+    "singularName": "blog-posts-landing-page",
+    "pluralName": "blog-posts-landing-pages",
+    "displayName": "Blog Posts Landing Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "BlogTitle": {
+      "type": "string"
+    },
+    "BlogDescription": {
+      "type": "blocks"
+    },
+    "HeaderImage": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
