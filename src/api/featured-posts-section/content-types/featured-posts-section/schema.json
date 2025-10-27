@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "featured_posts_sections",
+  "info": {
+    "singularName": "featured-posts-section",
+    "pluralName": "featured-posts-sections",
+    "displayName": "Featured Posts Section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article"
+    }
+  }
+}
